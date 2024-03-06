@@ -23,7 +23,7 @@ Why Do I Get ``ModuleNotFoundError: No module named 'polars'`` When Using {+driv
 ---------------------------------------------------------------------------------------
 
 {+driver-short+} raises this error when an application attempts to use a {+driver-short+} API
-that returns query-result sets as a ``polars.DataFrame`` instance without
+that returns query result-sets as a ``polars.DataFrame`` instance without
 having ``polars`` installed in the Python environment. Since ``polars`` is not
 a direct dependency of {+driver-short+}, it's not automatically installed when
 you install ``pymongoarrow``. You must install ``polars`` separately with the
