@@ -18,12 +18,12 @@ Data Types
    :keywords: support, conversions
 
 {+driver-short+} supports a majority of the BSON types.
-As Arrow and Polars provide first-class support for Lists and Structs,
+Because Arrow and Polars provide first-class support for Lists and Structs,
 this includes embedded arrays and documents.
 
 Support for additional types will be added in subsequent releases.
 
-.. note::
+.. tip::
 
    For more information about BSON types, see the
    `BSON specification <http://bsonspec.org/spec.html>`__.
@@ -57,12 +57,12 @@ Support for additional types will be added in subsequent releases.
    * - Binary data
      - ``bson.Binary``, an instance of ``pymongoarrow.types.BinaryType``, an instance of ``pymongoarrow.pandas_types.PandasBinary``.
    * - JavaScript code
-     - ``bson.Code``, an instance of ``pymongoarrow.types.CodeType``, an instance of ``pymongoarrow.pandas_types.PandasCode``.
+     - ``bson.Code``, an instance of ``pymongoarrow.types.CodeType``, an instance of ``pymongoarrow.pandas_types.PandasCode``
 
 .. note::
 
-   {+driver-short+} supports ``Decimal128`` on only little-endian systems. It
-   instead uses ``null`` on big-endian systems.
+   {+driver-short+} supports ``Decimal128`` on only little-endian systems. On
+   big-endian systems, it uses ``null`` instead.
 
 Use type identifiers to specify that a field is of a certain type
 during ``pymongoarrow.api.Schema`` declaration. For example, if your data
