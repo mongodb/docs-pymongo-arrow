@@ -45,7 +45,7 @@ Support for additional types will be added in subsequent releases.
    * - Decimal128
      - ``bson.Decimal128``, an instance of ``pymongoarrow.types.Decimal128Type``, an instance of ``pymongoarrow.pandas_types.PandasDecimal128``
    * - Boolean
-     - An instance of ``~pyarrow.bool_`, ``~py.bool``
+     - An instance of ``~pyarrow.bool_``, ``~py.bool``
    * - 64-bit binary floating point
      - ``py.float``, an instance of ``pyarrow.float64``
    * - 32-bit integer
