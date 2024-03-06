@@ -17,7 +17,7 @@ Frequently Asked Questions
 .. meta::
    :keywords: help, troubleshoot
 
-This page contains frequently asked questions and their corresponding answers.
+This page contains frequently asked questions and their answers.
 
 Why Do I Get ``ModuleNotFoundError: No module named 'polars'`` When Using {+driver-short+}?
 ---------------------------------------------------------------------------------------
