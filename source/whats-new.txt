@@ -4,6 +4,13 @@
 What's New
 ==========
 
+.. facet::
+   :name: genre
+   :values: reference
+ 
+.. meta::
+   :keywords: change, update, upgrade, compatible, backwards
+
 Changes in Version 1.3.0
 ------------------------
 - Support for Polars
