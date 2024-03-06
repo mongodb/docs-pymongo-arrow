@@ -17,7 +17,7 @@ Comparing to PyMongo
 .. meta::
    :keywords: PyMongo, equivalence 
 
-In this guide, you can learn about comparisons between {+driver-short+} and the
+In this guide, you can learn about the differences between {+driver-short+} and the
 PyMongo driver. This guide assumes familiarity with basic :driver:`PyMongo
 </pymongo>` and `MongoDB <https://docs.mongodb.com>`__ concepts.
 
