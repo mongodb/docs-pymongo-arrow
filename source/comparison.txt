@@ -4,6 +4,19 @@
 Comparing to PyMongo
 ====================
 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. facet::
+   :name: genre
+   :values: reference
+ 
+.. meta::
+   :keywords: PyMongo, equivalence 
+
 In this guide, you can learn about comparisons between {+driver-short+} and the
 PyMongo driver. This guide assumes familiarity with basic :driver:`PyMongo
 </pymongo>` and `MongoDB <https://docs.mongodb.com>`__ concepts.
@@ -150,7 +163,7 @@ using conventional PyMongo, and uses the same amount of memory.
    ProfileInsertLarge.time_insert_conventional         440±1ms
 
 For reads, the library is slower for small documents and nested
-documents, but faster for large documents.  It uses less memory in all cases.
+documents, but faster for large documents. It uses less memory in all cases.
 
 .. code-block:: none
 
