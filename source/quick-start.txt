@@ -21,7 +21,7 @@ Prerequisites
 
 Ensure that you have the {+driver-short+} distribution
 :ref:`<pymongo-arrow-install>`. In the Python shell, the following should
-run without raising an exception::
+run without raising an exception:
 
 .. code-block:: python
 
