@@ -180,7 +180,7 @@ descending order:
 .. tip::
   
    For more information about aggregation pipelines, see the
-   :manual: `MongoDB Server documentation </core/aggregation-pipeline/>`__.
+   :manual:`MongoDB Server documentation </core/aggregation-pipeline/>`.
 
 Writing to MongoDB
 ------------------
