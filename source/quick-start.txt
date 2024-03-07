@@ -24,7 +24,6 @@ Ensure that you have the {+driver-short+} distribution
 run without raising an exception::
 
 .. code-block:: python
-   :copyable: true
 
    >>>import pymongoarrow as pma
 
@@ -42,7 +41,7 @@ Extending PyMongo
 
 The ``pymongoarrow.monkey`` module provides an interface to patch PyMongo
 in place, and add {+driver-short+} functionality directly to
-``Collection`` instances::
+``Collection`` instances:
 
 .. code-block:: python
 
@@ -162,7 +161,7 @@ sequence of operations to perform.
 
 The following is a simple example of the ``aggregate_pandas_all()`` method that outputs a
 new dataframe in which all ``_id`` values are grouped together and their ``amount`` values
-summed::
+summed:
 
 .. code-block:: python
 
@@ -171,7 +170,7 @@ summed::
 You can also run aggregate operations on embedded documents.
 The following example unwinds values in the nested ``txn`` field, counts the number of each
 value, then returns the results as a list of NumPy ``ndarray`` objects, sorted in
-descending order::
+descending order:
 
 .. code-block:: python
 
