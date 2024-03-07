@@ -4,6 +4,13 @@
 Quick Start
 ===========
 
+.. facet::
+   :name: genre
+   :values: reference
+ 
+.. meta::
+   :keywords: tutorial, introduction, setup, begin  
+
 This tutorial is intended as an introduction to working with
 **{+driver-short+}**. The tutorial assumes the reader is familiar with basic
 `PyMongo <https://pymongo.readthedocs.io/en/stable/tutorial.html>`__ and
