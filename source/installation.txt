@@ -66,7 +66,7 @@ To upgrade using pip:
    If the install fails because of an error, such as ``ValueError: Could
    not find "libbson-1.0" library``, it means that ``pip`` failed to find a
    suitable wheel for your platform. We recommend first ensuring you have
-   ``pip`` >= 20.3 installed. To upgrade ``pip`` run the following shell command:
+   ``pip`` >= 20.3 installed. To upgrade ``pip``, run the following shell command:
 
    .. code-block:: python
 
@@ -91,7 +91,8 @@ Install from Source
 ~~~~~~~~~~~~~~~~~~~
 
 If the above options still do not allow you to install ``pymongoarrow`` on your
-system, you can install from source, see the `Developer Guide <https://mongo-arrow.readthedocs.io/en/{+patch-version-number+}/developer/installation.html>`__.
+system, you can install from source. To learn how, see the `Developer Guide
+<https://mongo-arrow.readthedocs.io/en/{+patch-version-number+}/developer/installation.html>`__.
 
 Dependencies
 ^^^^^^^^^^^^
