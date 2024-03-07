@@ -25,7 +25,7 @@ run without raising an exception:
 
 .. code-block:: python
 
-   >>>import pymongoarrow as pma
+   >>> import pymongoarrow as pma
 
 This tutorial also assumes that a MongoDB instance is running on the
 default host and port. After you have `downloaded and installed
