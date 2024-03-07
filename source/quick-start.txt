@@ -20,7 +20,7 @@ Prerequisites
 -------------
 
 Ensure that you have the {+driver-short+} distribution
-:ref:`<pymongo-arrow-install>`. In the Python shell, the following should
+:ref:`installed <pymongo-arrow-install>`. In the Python shell, the following should
 run without raising an exception:
 
 .. code-block:: python
@@ -150,7 +150,7 @@ names and the values are the corresponding ``numpy.ndarray`` instances.
 
       arrow_table = client.db.data.find_arrow_all({'amount': {'$gt': 0}})
 
-   If you omit the schema, {+driver-short+}, tries to automatically apply a schema based on
+   If you omit the schema, {+driver-short+} tries to automatically apply a schema based on
    the data contained in the first batch.
 
 Aggregate Operations
