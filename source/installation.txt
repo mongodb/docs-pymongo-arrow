@@ -7,7 +7,7 @@ Installing and Upgrading
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 1
+   :depth: 2
    :class: singlecol
 
 .. facet::
@@ -33,8 +33,11 @@ Python Compatibility
 Installation
 ------------
 
-You can install **{+driver-short+}** in three ways: by using Pip, Conda, or
-Source.
+You can install **{+driver-short+}** in three ways:
+
+- Pip 
+- Conda
+- From source
 
 Install with Pip
 ~~~~~~~~~~~~~~~~
@@ -65,9 +68,9 @@ To upgrade using pip:
    suitable wheel for your platform. We recommend first ensuring you have
    ``pip`` >= 20.3 installed. To upgrade ``pip`` run the following shell command:
 
-.. code-block:: python
+   .. code-block:: python
 
-   $ python -m pip install --upgrade pip
+      $ python -m pip install --upgrade pip
 
 You can then try to re-install ``pymongoarrow``.
 
