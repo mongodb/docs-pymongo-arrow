@@ -93,13 +93,13 @@ Issues
 ------
 
 Report all issues at the main `MongoDB JIRA bug tracker
-<https://jira.mongodb.org/projects/ARROW/issues/>`_ in the {+driver-short+}
+<https://jira.mongodb.org/projects/ARROW/issues/>`__ in the {+driver-short+}
 project.
 
 Feature Requests and Feedback
 -----------------------------
 
-Use the `feedback engine <https://feedback.mongodb.com/forums/924286-drivers>`_
+Use the `feedback engine <https://feedback.mongodb.com/forums/924286-drivers>`__
 to send feature requests and general feedback about {+driver-short+}.
 
 Contributing
