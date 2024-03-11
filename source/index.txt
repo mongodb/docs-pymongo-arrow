@@ -93,7 +93,7 @@ Issues
 ------
 
 Report all issues at the main `MongoDB JIRA bug tracker
-<http://jira.mongodb.org/browse/PYTHON>`_ in the "Python Driver"
+<https://jira.mongodb.org/projects/ARROW/issues/>`_ in the {+driver-short+}
 project.
 
 Feature Requests and Feedback
