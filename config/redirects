@@ -1,4 +1,4 @@
-define: prefix /docs/languages/python/pymongo-arrow-driver/
+define: prefix docs/languages/python/pymongo-arrow-driver
 define: base https://www.mongodb.com/${prefix}
 define: versions v1.3 master
 
