@@ -40,7 +40,7 @@ If you experience this error, check if you have GCC version 12 or later
 installed. {+driver-short+} raises this error when GCC version 12 or later is
 not installed in your Linux environment. To learn more about requirements to
 install {+driver-short+} from source, see :doc:`Installing and Upgrading
-</docs-pymongo-arrow/installation>`.
+<installation>`.
 
 
 
