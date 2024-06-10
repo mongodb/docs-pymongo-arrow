@@ -33,8 +33,7 @@ following shell command:
 
    $ python -m pip install polars
 
-Why do I get a ``undefined symbol`` error when
-installing {+driver-short+} from source?
+Why do I get a ``undefined symbol`` error when installing {+driver-short+} from source?
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If you experience this error, check if you have GCC version 12 or later
