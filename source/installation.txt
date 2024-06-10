@@ -103,6 +103,7 @@ Dependencies
 - PyArrow version 16
 
 Installing from source on Linux requires the following additional dependencies: 
+
 - GCC version 12 or later
 - CMake
 - pkg-config
