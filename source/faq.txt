@@ -20,7 +20,7 @@ Frequently Asked Questions
 This page contains frequently asked questions and their answers.
 
 Why do I get ``ModuleNotFoundError: No module named 'polars'`` when using {+driver-short+}?
----------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 {+driver-short+} raises this error when an application attempts to use a {+driver-short+} API
 that returns query result-sets as a ``polars.DataFrame`` instance without
@@ -33,9 +33,9 @@ following shell command:
 
    $ python -m pip install polars
 
-Why do I get ``linux-gnu.so: undefined symbol: _ZNK5arrow6Status`` when
+Why do I get a ``undefined symbol`` error when
 installing {+driver-short+} from source?
-------------
+-------------------------------------------------------------------------------------------------------------------------
 
 If you experience this error, check if you have GCC version 12 or later
 installed. {+driver-short+} raises this error when GCC version 12 or later is
