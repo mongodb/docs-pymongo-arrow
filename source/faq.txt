@@ -33,9 +33,11 @@ following shell command:
 
    $ python -m pip install polars
 
+
 Why do I get ``linux-gnu.so: undefined symbol: _ZNK5arrow6Status`` when
 installing {+driver-short+} from source?
 ---------------------------------------------------------------------------------------
+
 If you experience this error, check if you have GCC version 12 or later
 installed. {+driver-short+} raises this error when GCC version 12 or later is
 not installed in your Linux environment. To learn more about requirements to
