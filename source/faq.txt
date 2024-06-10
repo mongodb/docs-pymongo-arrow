@@ -35,7 +35,7 @@ following shell command:
 
 Why do I get a ``undefined symbol`` error when
 installing {+driver-short+} from source?
--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If you experience this error, check if you have GCC version 12 or later
 installed. {+driver-short+} raises this error when GCC version 12 or later is
