@@ -34,15 +34,12 @@ following shell command:
    $ python -m pip install polars
 
 Why do I get an ``undefined symbol`` error when installing {+driver-short+} from source?
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
-If you experience this error, check if you have GCC version 12 or later
-installed. {+driver-short+} raises this error when GCC version 12 or later is
-not installed in your Linux environment. To learn more about requirements to
-install {+driver-short+} from source, see :doc:`Installing and Upgrading
+{+driver-short+} raises this error when GCC version 12 or later is
+not installed in your Linux environment. If you experience this error,
+ensure that you have GCC version 12 or later installed.
+
+To learn more about the requirements for
+installing {+driver-short+} from source, see :doc:`Installing and Upgrading
 <installation>`.
-
-
-
-
-

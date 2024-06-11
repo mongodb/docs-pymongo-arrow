@@ -109,7 +109,7 @@ Installing from source on Linux requires the following additional dependencies:
 - pkg-config
 
 To use {+driver-short+} with a PyMongo feature that requires an optional
-dependency, you must install PyMongo with the dependency manually.
+dependency, you must set the dependency as an option when you install PyMongo.
 
 .. note:: 
 
