@@ -20,7 +20,10 @@ What's New
 Changes in Version 1.5.0
 ------------------------
 
-- Added support for PyArrow 17.0.
+- Adds support for PyArrow 17.0
+- Fixes a bug where adding a struct with an ``ObjectId`` value to a list
+  raised an error
+- Adds support for nested ``ObjectID`` values in Polars conversions
 
 Changes in Version 1.4.0
 ------------------------
