@@ -212,7 +212,7 @@ This argument is ``False`` by default. When it is set to ``True``, empty
 values will not be written to the database.
 
 The code in the following example writes an Arrow ``Table`` to MongoDB twice: once
-with ``exclude_none`` defaulting to ``False``, and once set to ``True``.
+with ``exclude_none`` defaulting to ``False``, and once with it set to ``True``.
 
 .. io-code-block::
    :copyable: true
