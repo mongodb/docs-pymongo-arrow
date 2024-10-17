@@ -207,6 +207,48 @@ You can use the ``write()`` method to write objects of the following types to Mo
    write(coll, arrow_table)
    write(coll, ndarrays)
 
+You can add an optional argument to ``write()`` called ``exclude_none``.
+This argument is ``False`` by default. When it is set to ``True``, empty
+values will not be written to the database.
+
+The code in the following example writes an Arrow ``Table`` to MongoDB twice: once
+with ``exclude_none`` defaulting to ``False``, and once set to ``True``.
+
+.. io-code-block::
+   :copyable: true
+
+   .. input:: 
+      :language: python
+      :dedent:
+      
+      data_a = [1,2, 3, 4, 5, 6]
+      data_b = [1, 2, 3, None, 5, 6]
+
+      data = Table.from_pydict(
+         {
+            "a": data_a,
+            "b": data_b,
+         },
+      )
+
+      coll.drop()
+      write(coll, data)
+      col_data = list(coll.find({}))
+
+      coll.drop()
+      write(coll, data, exclude_none=True)
+      col_data_exclude_none = list(coll.find({}))
+
+      print(col_data[3])
+      print(col_data_exclude_none[3])
+
+   .. output::
+      :language: json
+      :visible: false
+
+      {'_id': ObjectId('...'), 'a': 4, 'b': None}
+      {'_id': ObjectId('...'), 'a': 4}
+
 .. note::
   
    NumPy arrays are specified as ``dict[str, ndarray]``.
