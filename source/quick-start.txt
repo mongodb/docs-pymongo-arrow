@@ -220,12 +220,12 @@ the database. If you set this parameter to ``False`` or leave it blank, the
 driver writes ``None`` for each empty field.
 
 The code in the following example writes an Arrow ``Table`` to MongoDB twice. One
-of the values in the ``b`` field is set to ``None``. 
+of the values in the ``'b'`` field is set to ``None``. 
 
 The first call to the ``write()`` method omits the ``exclude_none`` parameter, 
 so it defaults to ``False``. All values in the ``Table``, including ``None``, 
 are written to the database. The second call to the ``write()`` method sets 
-``exclude_none`` to ``True``, so the empty value in the ``b`` field is ignored.
+``exclude_none`` to ``True``, so the empty value in the ``'b'`` field is ignored.
 
 .. io-code-block::
    :copyable: true
