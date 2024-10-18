@@ -207,6 +207,10 @@ You can use the ``write()`` method to write objects of the following types to Mo
    write(coll, arrow_table)
    write(coll, ndarrays)
 
+.. note::
+  
+   NumPy arrays are specified as ``dict[str, ndarray]``.
+
 Ignore Empty Values
 ~~~~~~~~~~~~~~~~~~~
 
@@ -264,10 +268,6 @@ are written to the database. The second call to the ``write()`` method sets
       {'_id': ObjectId('...'), 'a': 1, 'b': 1}
       {'_id': ObjectId('...'), 'a': 2}
       {'_id': ObjectId('...'), 'a': 3, 'b': 3}
-
-.. note::
-  
-   NumPy arrays are specified as ``dict[str, ndarray]``.
 
 Writing to Other Formats
 ------------------------
