@@ -22,7 +22,7 @@ Changes in Version 1.6.0
 
 .. warning:: Breaking Change
 
-   This versions of {+driver-short+} introduces the following breaking change:
+   This version of {+driver-short+} introduces the following breaking change:
 
    - Removes support for Python v3.8
 
