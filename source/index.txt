@@ -14,7 +14,7 @@
 .. toctree::
 
    Previous Versions </previous-versions>
-   Installing & Upgrading </installation>
+   Install & Upgrade </installation>
    Quick Start </quick-start>
    What's New </whats-new>
    Comparing to PyMongo </comparison>
