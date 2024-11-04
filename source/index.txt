@@ -17,7 +17,7 @@
    Install & Upgrade </installation>
    Quick Start </quick-start>
    What's New </whats-new>
-   Comparing to PyMongo </comparison>
+   Compare to PyMongo </comparison>
    Data Types </data-types>
    Schema Examples </schemas>
    API Documentation <{+api-root+}>
