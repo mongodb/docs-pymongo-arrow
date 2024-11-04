@@ -20,7 +20,7 @@ What's New
 Changes in Version 1.6.0
 ------------------------
 
-.. important:: Breaking Change
+.. warning:: Breaking Change
 
    This versions of {+driver-short+} introduces the following breaking change:
 
