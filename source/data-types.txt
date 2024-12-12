@@ -41,7 +41,7 @@ Support for additional types will be added in subsequent releases.
      - - ``py.dict``
        - Instance of ``pyarrow.struct``
    * - Embedded array
-     - Instance of ``pyarrow.list_``
+     - - Instance of ``pyarrow.list_``
    * - ObjectId
      - - ``py.bytes``
        - ``bson.ObjectId``
@@ -58,7 +58,7 @@ Support for additional types will be added in subsequent releases.
      - - ``py.float``
        - Instance of ``pyarrow.float64``
    * - 32-bit integer
-     - Instance of ``pyarrow.int32``
+     - - Instance of ``pyarrow.int32``
    * - 64-bit integer
      - - ``~py.int``
        - ``bson.int64.Int64``
@@ -75,7 +75,7 @@ Support for additional types will be added in subsequent releases.
        - Instance of ``pymongoarrow.types.CodeType``
        - Instance of ``pymongoarrow.pandas_types.PandasCode``
    * - null
-     - Instance of ``pyarrow.null``
+     - - Instance of ``pyarrow.null``
 
 .. note::
 
